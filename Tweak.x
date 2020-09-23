@@ -4,6 +4,7 @@
 
 -(void)applicationDidFinishLoading {
 
+	%orig
 	UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Welcome to your iDevice!"
 	message:nil
 	delegate:self cancelButtonTitle:@"STFU"
